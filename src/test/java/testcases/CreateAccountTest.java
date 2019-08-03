@@ -22,7 +22,7 @@ public class CreateAccountTest {
 		AccountsPage account = Page.menu.gotoAccounts();
 		CreateAccountPage cap = account.gotoCreateAccounts();
 		cap.createAccount(data.get("accountname"));
-		Assert.fail("create account test failed");
+		//Assert.fail("create account test failed");
 	}
 
 }

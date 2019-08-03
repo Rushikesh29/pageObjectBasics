@@ -20,7 +20,7 @@ public class LoginTest extends BaseTest {
 		LoginPage lp = home.goToLogin();
 		System.out.println("2");
 		ZohoAppPage zp = lp.doLogin(data.get("username"), data.get("password"));
-		Assert.fail("login test failed");
+		//Assert.fail("login test failed");
 	}
 
 }
