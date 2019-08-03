@@ -12,7 +12,7 @@ import pages.ZohoAppPage;
 import utilities.Utilities;
 
 public class LoginTest extends BaseTest {
-	
+	//this is sample test file
 	@Test(dataProviderClass = Utilities.class,dataProvider="dp")
 	public void loginTest(Hashtable<String,String> data) throws IOException {
 		HomePage home = new HomePage();
